@@ -46,18 +46,18 @@ button {
     text-align: Center;
     color: #ffffff;
     border-radius: 30px;
-    border::before;
+    border:: none;
     cursor: pointer;
 
 
 }
 
 button:hover {
-    background: red;
+    opacity: 0.5;
 }
 
 button:active {
-    opacity: .5;
+    opacity: 0.5;
 }
 
 .contiener-hidth {
